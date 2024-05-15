@@ -1,14 +1,13 @@
-
 public class Room {
-	String roomNumber;
+	int roomID;
 	String type;
+	boolean isAvailable;
 	double price;
-	Booking booking;
 	
-	void setBooking(Booking Booking) {
-		
-	}
-	void removeBooking() {
-		
+	Room(int id,String t, boolean isA,double p){
+		this.roomID = id;
+		this.type = t;
+		this.isAvailable = isA;
+		this.price = p;
 	}
 }

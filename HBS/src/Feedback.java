@@ -2,7 +2,7 @@
 public class Feedback {
 	String review;
 	int rating;
-	Guest guest;
+	Customer guest;
 	
 	void setReview(String review) {
 		
@@ -10,7 +10,7 @@ public class Feedback {
 	void setRating(int rating) {
 		
 	}
-	void setGuest(Guest guest) {
+	void setGuest(Customer guest) {
 		
 	}
 }
